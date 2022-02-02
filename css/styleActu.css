@@ -1,0 +1,78 @@
+.presentationActu p{
+    background-color: #D3DFB8;
+    margin-top:20px;
+    text-align: center;
+    padding:10px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+
+
+.evenementActu h1{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom:40px;
+}
+
+.titreandcontenu{
+    display: block;
+}
+
+.titreandcontenu input{
+    width: 1300px;
+    height: 70px;
+}
+
+.titreandcontenuActu input{
+    width: 1300px;
+    height: 70px;
+}
+
+.actuIncidents h1{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom:40px;
+}
+
+.retour1{
+    border: solid black 2px;
+    background-color: #fce980;
+    border-radius: 5px;
+    padding:10px;
+    margin-bottom:35px;
+    color:black;
+    word-wrap: break-word;
+    box-shadow: inset 4px 4px 4px rgba(255, 255, 255, .6),
+    inset -7px -7px 7px rgba(0, 0, 0, .6);
+}
+
+.retour2{
+    border: solid black 2px;
+    background-color: #dd7070;
+    border-radius: 5px;
+    padding:10px;
+    margin-bottom:35px;
+    color:black;
+    word-wrap: break-word;
+    box-shadow: inset 4px 4px 4px rgba(255, 255, 255, .6),
+                inset -7px -7px 7px rgba(0, 0, 0, .6);
+}
+
+.retour1 h3{
+    border-bottom: black solid 3px;
+}
+
+.retour2 h3{
+    border-bottom: black solid 3px;
+}
+
+.typeEvent button{
+    border: solid rgb(121, 97, 175) 3px;
+}
+
+.typeActu button{
+    border: solid rgb(121, 97, 175) 3px;
+}

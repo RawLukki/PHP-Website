@@ -1,0 +1,147 @@
+<?php
+if (!defined('CONST_INCLUDE'))
+	die ('Acces direct interdit !');
+
+class VueAccueil {
+	/*<img class="active" src="ressources/accueil/iut_batF.png" alt="Devanture bâtiment F"> </img>
+                        <img src="ressources/accueil/batPrincipal.png" alt="Bâtiment principal"> </img>
+                        <img src="ressources/accueil/cantine.jpg" alt="Cantine de l\'IUT"> </img>*/
+	public function __construct() {
+
+	}
+
+	public function afficheAccueil() {
+
+        print '<div class="container">
+        
+                    <div class="slider">
+                        <img class="imgslide active" src="ressources/accueil/iut_batF.png" alt="Devanture bâtiment F"> </img>
+                        <img class="imgslide" src="ressources/accueil/batPrincipal.png" alt="Bâtiment principal"></img>
+                        <img class="imgslide" src="ressources/accueil/cantine.jpg" alt="Cantine de l\'IUT"></img>
+                    </div>
+
+                    <div class="cont-btn">
+                        <div class="btn-nav left">⇦</div>
+                        <div class="btn-nav right">⇨</div>
+                    </div>   
+                </div>
+    
+    <hr class="solid">
+    
+    <div class="fonctionalitecontainer">
+        <h2>Bienvenue sur le site karotine</h2>
+        <h3>Fonctionnalités</h3>
+    
+    <div class="infofonctionalite">
+        <div class="fonctionalite-item" id=reserver>
+            <div class="imagetitle">
+            <img class="symbole3" src="ressources/accueil/reserver.png" alt="Réservation"> </img>
+            <h4>Réserver</h4>
+            </div>
+            <div class="miniparagraphe">
+                <p>Vous souhaitez réserver une de nos salles ? </br>
+                Accéder au calendrier des réservation avec l\'onglet "Réserver".</p>
+            </div>
+        </div>
+    
+        <div class="fonctionalite-item" id=actualite>
+            <div class="imagetitle">
+            <img class="symbole3" src="ressources/accueil/Actualité.png" alt="Newspaper"> </img>
+            <h4>Actualités</h4>
+            </div>
+    
+            <div class="miniparagraphe">
+            <p>Vous repérez un problème dans l\'une  des salles ou souhaitez informez les étudiants du campus sur un événement prochain ? </br>
+                Notifiez le dans l\'onglet "Actualités".</p>
+            </div>
+            
+        </div>
+        <div class="fonctionalite-item" id=contacter>
+            <div class="imagetitle">
+            <img class="symbole3" src="ressources/accueil/Contact.png" alt="Enveloppe"> </img>
+            <h4>Contacter</h4>
+            </div>
+            <div class="miniparagraphe">
+            <p>
+            Vous voulez vous entretenir en message privé avec l\'un de nos utilisateurs?</br> 
+            Faites le avec l\'onglet "Boîte de Réception".
+            </p>
+            </div>
+            
+        </div>   
+    </div>
+    
+    </div>
+    
+    <hr class="solid">
+ 
+    <h3 class="accueilh3">WIKI DE L\'IUT</h3>
+
+    
+    
+    <div class="aboutIUT">
+    
+        <div class="video">
+            <video controls="controls" poster="ressources/accueil/logoIUTdeMontreuil.png" height="250px">
+                <source src="ressources/accueil/videos/presentationIUT.mp4" type="video/mp4">
+                    Si vous ne voyez pas la vidéo, cela doit venir de votre navigateur de recherche.
+            </video>
+        </div>
+    
+        <div class="infoIUT">
+            <p>
+                Créé en 1998, l’IUT de Montreuil propose des formations universitaires à vocation professionnelle. </br>
+                L’IUT de Montreuil c’est : 4 départements de formation en adéquation avec les besoins des entreprises </br>
+                et du territoire:</br>
+                -GACO</br>
+                -INFO</br>
+                -QLIO</br>
+                -INFOCOM</br>
+                <br>
+                L\'IUT propose un enseignement universitaire de qualité avec une pédagogie adaptée laissant une large place </br>
+                aux stages et aux travaux dirigés et pratiques en petits groupes.
+                Une équipes pédagogique investie et soucieuse d\'accompagner la réussite de ses étudiants.
+                Un cursus universitaire et professionnel répondant à un programme national.
+                Des formations reconnues et des compétences recherchées par les entreprises.
+                Une offre de mobilité internationale qui ne cesse de se développer.
+                Des installations pédagogiques performantes et modernes à la disposition des différentes formations.
+            </p>
+        </div>
+        
+    </div>
+    
+    <hr class="solid">
+    
+    <h3 class="accueilh3">L\'IUT DANS SON MILIEU NATUREL</h3>
+ 
+  
+    
+    <div class="activiteesmap">
+    
+        <div class="listeActivitees">
+        <h4 class="titreActivitees"> La proximitée de l\'IUT :</h4>
+       <ul>
+       <li>Transport (Bus 122, Métro 9)</li>
+       <li>Supermarché (Super U)</li>
+       <li>Boulangerie</li>
+       <li>Fablab</li>
+       <li>Piscine</li>
+       <li>Gymnase</li>
+       <li>Court de tennis</li>
+       <li>Maison de quartier</li>
+       <li>Poste</li>
+       <li>Décharge</li>
+        </div>
+    
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.7746765364436!2d2.462844641083445!3d48.86250692633431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e612ae6a4cd20d%3A0xfe5502b116430be!2sIUT%20De%20Montreuil!5e0!3m2!1sfr!2sfr!4v1638828840389!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    
+    <hr class="solid">
+    
+		<script src="app.js"></script>	
+	}';
+    }
+}
+?>

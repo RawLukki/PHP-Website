@@ -1,0 +1,254 @@
+
+h1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.formulaire h {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color:#a3146ce3;
+}
+
+/*******************************************/
+.formulaire{ 
+    border: antiquewhite 2px solid;
+    text-align: center;
+    width: 45%;
+    margin-left: 27.5%;
+}
+
+hr{
+    width: 70%;
+}
+/*******************************************/
+
+
+#nomPrenomResponsable{
+    display: inline-block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+    height: 100px;
+    width: 70%;
+}
+
+#nomChamp{
+    display: inline-block; 
+    float: left;
+    width: 100px;   
+}
+
+#nomChamp label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 22px;
+    text-align: justify;
+}
+
+#saisie{
+    display:inline-block;
+    float: right;
+    
+}
+
+#saisie input{
+    display: block;
+    margin: 20px;
+}
+
+
+/*******************************************/
+
+.lieu{
+    height: 150px;
+}
+
+
+.materiel{
+    display: inline-block;
+    float: left;
+    height: 100px;
+    margin-left: 60px;
+}
+
+#listeMatos{
+    display: inline-block;
+    float: left;
+    text-align: justify;  
+}
+
+#listeMatos li{
+    margin: 5px;
+}
+
+#check{
+    display: inline-block;
+    float: right;
+    width: 20px;
+    height: 100px;
+}
+
+#check input{
+    margin-top: 8px;
+}
+
+#personne{
+    display: inline-block;
+    float: right;
+    height: 100px;
+    width: 250px;
+    margin-right: 60px;
+}
+
+#personne label{
+    display: block;
+    margin-top: 20px;
+}
+
+#personne input{
+    margin: 10px;
+    width: 150px;
+}
+.Salles{
+    height: 100px;
+}
+#salles{
+    margin-top: 10px;
+    display: block; 
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    border: purple 1px solid;
+    margin-left: 10%;
+}
+
+
+/*******************************************/
+
+.quand h {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color:#a3146ce3;
+}
+
+#calendrier{
+    display: inline-block;
+    margin-left: 50px;
+    float: left;
+    height: 90px;
+    width: 200px;
+}
+
+#calendrier label{
+    display: block;
+    margin: 10px;
+}
+
+.horaire{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.horaire label{
+    margin: 10px;
+}
+
+.horaire input{
+    margin:10px;
+}
+/*******************************************/
+
+.envoyer{  
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.envoyer button{
+    border: 0;
+    line-height: 2.5;
+    width: 40%;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(183, 221, 231);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+/**********************************************/
+table {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+}
+
+td{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.entete{
+    background-color: rgb(218, 213, 213);
+}
+
+/***************************************/
+#btnSupp {
+    height: 10%;
+    border: 0;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    
+}
+
+/***************************************************/
+.message{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: honeydew 1px solid;
+    text-align: center;
+    height: 200px;
+}
+
+span{
+    font-weight: 200px;
+    height: 100px;
+}
+
+.input-error{
+    box-shadow: 0 0 5px red;
+    color: whitesmoke;
+    background-color: red;
+    
+}
+
+.input-success{
+    color: whitesmoke;
+    background-color: green;
+    box-shadow: 0 0 5px green;
+}

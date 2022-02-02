@@ -1,0 +1,224 @@
+body {
+    min-height: 100vh;
+    background-color: #e6e6e6;
+    margin: auto;
+}
+/**************************************************/
+
+h1{
+    font-size: 40px;
+    color: whitesmoke; 
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    margin: 30px;
+}
+
+/***************************************************/
+.envoyerProjet{  
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    width:50%;
+    margin-left: 25%;
+}
+
+button{
+    border: 0;
+    line-height: 2.5;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(29, 49, 54);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgb(29, 49, 54),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.btnDefiler{
+    margin-top:20px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/************************************/
+.formProjet{ 
+    border: antiquewhite 2px solid;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+hr{
+    text-align: center;
+    width: 70%;
+    color: whitesmoke;
+}
+
+h{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+/****************Organisation*****************/
+
+.Presentation{
+    height: 10%;
+}
+
+.Presentation label{
+   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+    margin-right: 1%;
+}
+
+
+/**************Departement******************/
+
+.Departement select{
+    margin: 10px;
+    width: 50%;
+}
+
+.Departement{
+    margin-left: auto;
+}
+
+/**************RESPONSIVE ET TEXTAREA*************************/
+
+.comment-text-area {
+    width: 90%;
+    height: auto;
+}
+
+.textinput {
+    width: 80%;
+    min-height:200px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+}
+
+.commentaire label {
+    float: left;
+    width: 90%;
+    height: auto;
+}
+
+/***************************************/
+
+.Periode label{
+    display: inline-block;
+    min-width: 10%;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/****************MESSAGE***********************/
+
+.message{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: honeydew 1px solid;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 50%;
+}
+
+span{
+    font-weight: 200px;
+    height: 100px;
+}
+
+.input-error{
+    box-shadow: 0 0 5px red;
+    color: whitesmoke;
+    background-color: red;
+    
+}
+
+.input-success{
+    color: whitesmoke;
+    background-color: green;
+    box-shadow: 0 0 5px green;
+}
+
+/***************LISTE PROJET********************/
+
+.listeProjet{
+    margin-top: 1%;
+    border: black 1px solid;
+    border-radius: 15px;
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+}
+.contenu{
+    display: inline-block;
+}
+
+#auteur{ 
+    display: inline-block;
+    width: 90%;
+    border: rgb(255, 255, 255) 1px solid;
+}
+#dateFin{
+    border: rgb(255, 255, 255) 1px solid;
+    display: inline-block;
+    float: right;
+    width: 30%;
+    margin-right: 20%;
+} 
+#dateDebut{
+    border: rgb(255, 255, 255) 1px solid;
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-left: 20%;
+}
+
+/***************Partie PROF********************/
+
+#projetValide{
+    text-align: center;
+}
+
+#projetValide button{
+    border: 0;
+    line-height: 2;
+    width: 20%;
+    margin-top: 1%;
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(41, 40, 88);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+/****************************************/
+
+.valider{
+    text-align: center;
+}
+
+#valide {
+    border: 0;
+    line-height: 1rem;
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 35%;
+    font-size: 20px;
+    color: #4CAF50;
+}
+
